@@ -1,0 +1,49 @@
+{
+  "leads": [
+    {
+      "id": 1,
+      "source": "AutoTrader Calgary",
+      "owner_name": "Jim Pattison Lease (Dealer)",
+      "vehicle": "2025 Ford Transit T-250 AWD Medium Roof",
+      "contact_info": "Dealership: 1-833-337-7746",
+      "status": "new",
+      "created_date": "2026-09-25T01:15:56.691744",
+      "last_contact": "",
+      "next_action": "Initial outreach",
+      "notes": "Dealer listing - ask about lease returns or trade-ins with similar specs. This is a dealer, not private owner, but they know private owners trading in similar vehicles.",
+      "qualification_score": 0
+    },
+    {
+      "id": 2,
+      "source": "Kijiji Calgary (manual monitoring)",
+      "owner_name": "[Private Seller - to be identified]",
+      "vehicle": "2023 Ford Transit T-250 AWD High Roof",
+      "contact_info": "[To be captured from listing]",
+      "status": "new",
+      "created_date": "2026-09-25T01:15:56.692157",
+      "last_contact": "",
+      "next_action": "Initial outreach",
+      "notes": "Monitor Kijiji daily for this listing. When found, use private_seller_email template.",
+      "qualification_score": 0
+    },
+    {
+      "id": 3,
+      "source": "AutoTrader Dealer Listing",
+      "owner_name": "Jim Pattison Lease",
+      "vehicle": "2025 Ford Transit Cargo Van T-250 AWD 3.5L V-6 148wb Medium Roof w/Bluetooth & Camera",
+      "contact_info": "https://www.autotrader.ca/offers/ford-transit-t-250-awd-3-5l-v-6-148wb-medium-roof-w-bluetooth-gasoline-white-cat_ma29gr2160va2841tr480243-c35199e4-a604-4ab0-b48e-362c64a8ce7f",
+      "status": "new",
+      "created_date": "2026-09-25T01:16:39.123563",
+      "last_contact": "",
+      "next_action": "Initial outreach",
+      "notes": "This is a dealer listing - look for similar private seller listings",
+      "qualification_score": 0
+    }
+  ],
+  "templates": {
+    "private_seller_email": "Subject: Alternative to selling your {vehicle} - earn $300-800/day instead\n\nHi {name},\n\nI saw your {vehicle} listed on {platform}. \nInstead of selling, have you considered renting it to vetted professionals?\n\nI run nature-office - we certify mobile office vehicles and connect them with AI consulting firms, government agencies, and field teams in Alberta who need professional workspaces on wheels.\n\nYour exact configuration ({key_features}) qualifies for our {tier} tier: ${daily_rate}/day.\nWe handle: vetting, insurance, contracts, payments, and 5-pillar certification.\n\nInterested in a 10-min call to see what your vehicle could earn?\n{calendly_link}\n\nBest,\n{my_name}\nnature-office Partnership Team",
+    "storage_manager_email": "Subject: Partnership opportunity for {facility_name} tenants\n\nHi {manager_name},\n\nI manage nature-office, Alberta's mobile office certification platform. \nWe help RV/van owners monetize idle vehicles by renting to vetted professionals (AI consultants, government field teams, engineers).\n\nMany of your tenants have vehicles sitting 20+ days/month. We'd love to:\n1. Offer your tenants a no-obligation vehicle assessment (free)\n2. Pay you $100 referral for each tenant vehicle we certify\n3. Provide certified vehicles discounted storage when not rented\n\n10-min call this week?\n{calendly_link}\n\n{my_name} | nature-office | {phone}",
+    "sms_private_seller": "Hi, saw your {vehicle} on {platform}. Instead of selling, we certify & rent similar vans to professionals for ${daily_rate}/day. We handle everything. Open to a quick chat? {my_name} - nature-office",
+    "linkedin_fleet": "Hi {name}, noticed {company} has {vehicle_type} vans. We help firms monetize idle fleet assets by certifying them as mobile offices for professional renters (${daily_rate}/day). Managed service - we handle vetting, insurance, logistics. Worth 10 mins?"
+  }
+}

@@ -47,3 +47,6 @@ All research must meet these criteria:
 - **Authority**: Official sources, peer-reviewed, industry experts
 - **Completeness**: Technical, regulatory, and market aspects
 - **Verification**: Cross-referenced with 2+ independent sources
+| 2026-09-25 | Vehicle Owner Acquisition Strategy | [vehicle-acquisition-strategy-2026-09-25.md](./vehicle-acquisition-strategy-2026-09-25.md) | ✅ Researched |
+
+| 2026-09-25 | Individual Owner Acquisition Strategy | [owner-acquisition-strategy-2026-09-25.md](./owner-acquisition-strategy-2026-09-25.md) | ✅ Researched |
